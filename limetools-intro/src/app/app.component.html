@@ -1,0 +1,55 @@
+<!-- Main component for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h2>Limetools - Angular ERP</h2>
+    <p>Limetools is a simple ERP build with Angular 2/4 using component based architecture</p>
+    
+    <hr>
+    <h4>Features</h4>
+    <hr>
+    <ul>
+      <li>HR Module - Managing Employees/Departments</li>
+      <li>Finance Module - Managing Employees Salaries</li>
+      <li>Admin Module - Managing users, roles and permissions</li>
+    </ul>
+    
+  </div>
+
+  <h3>
+    Employee Details
+  </h3>
+  Emp No:- {{ employee.emp_no }} <br>
+  First Name:- {{ employee.first_name }} <br>
+  Last Name:- {{ employee.last_name }} <br>
+  Gender :- {{ employee.gender }} <br>
+  Birth Date:- {{ employee.birth_date }} <br>
+  Hire Date:- {{ employee.hire_date }} <br>
+
+<div *ngIf="employees" class="col-md-6">
+  <h3>List of Employees</h3>
+  
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Emp No</th>
+        <th>Full Name</th>
+        <th>Gender</th>
+        <th>Hired On</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let employee of employees">
+      <tr (click)="showEmployee(employee)" [class.active]="employee===selectedEmployee">
+        <td>{{ employee.emp_no }}</td>
+        <td>{{ employee.first_name }} {{ employee.last_name }} </td>
+        <td>{{ employee.gender }} </td>
+        <td>{{ employee.hire_date | date}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <employee-details [employee]="selectedEmployee"></employee-details>
+</div>
+
+
+<div class="col-md-6">
+  <create-employee (employeeCreated)="onEmployeeCreated($event)"></create-employee>
+</div>

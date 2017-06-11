@@ -1,0 +1,12 @@
+
+
+<div *ngIf="employee" class="alert alert-success" >
+  <h3> {{ title }}</h3>
+  
+  {{ employee.first_name }} - {{ employee.last_name }}
+
+  <hr>
+  First Name : <input type="text" [(ngModel)]="employee.first_name">
+  <br><br>
+  Last Name : <input type="text" [(ngModel)]="employee.last_name">
+</div>

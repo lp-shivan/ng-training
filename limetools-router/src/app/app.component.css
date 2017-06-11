@@ -1,0 +1,8 @@
+.jumbotron {
+    background: lightblue;
+    color: black
+}
+
+tr {
+    cursor: pointer;
+}
