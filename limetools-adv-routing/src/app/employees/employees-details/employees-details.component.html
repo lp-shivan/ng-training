@@ -1,0 +1,15 @@
+<div *ngIf="employee">
+  <a (click)="goBack()" class="btn btn-sm btn-info">Go Back</a>
+
+  <a (click)="showAboutPage()" class="btn btn-sm btn-info">Go to About Page</a>
+  <h2>
+    Employee Details
+  </h2>
+
+  <p>ID : {{ employee.id }}</p>
+  <p>First Name : {{ employee.first_name }}</p>
+  <p>First Name : {{ employee.last_name }}</p>
+  <p>Gender : {{ employee.gender }}</p>
+  <p>Birth Date : {{ employee.birth_date | date }}</p>
+  <p>Hire Date : {{ employee.hire_date | date }}</p>
+</div>

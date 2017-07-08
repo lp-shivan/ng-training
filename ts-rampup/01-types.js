@@ -1,0 +1,12 @@
+console.log('Super apps with Angular and Node');
+var myString;
+var myNum;
+var myBool;
+myString = 'Hello World';
+myNum = 2;
+myBool = false;
+console.log('Types output');
+console.log('------------');
+console.log(myString);
+console.log(myNum);
+console.log(myBool);

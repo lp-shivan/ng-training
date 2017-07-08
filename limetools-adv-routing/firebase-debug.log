@@ -1,0 +1,94 @@
+[debug] [2017-07-06T01:18:26.196Z] ----------------------------------------------------------------------
+[debug] [2017-07-06T01:18:26.198Z] Command:      /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2017-07-06T01:18:26.198Z] CLI Version:  3.9.1
+[debug] [2017-07-06T01:18:26.198Z] Platform:     darwin
+[debug] [2017-07-06T01:18:26.198Z] Node Version: v8.1.0
+[debug] [2017-07-06T01:18:26.199Z] Time:         Thu Jul 06 2017 06:48:26 GMT+0530 (IST)
+[debug] [2017-07-06T01:18:26.199Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-06T01:18:26.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-07-06T01:18:26.241Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srivenkateshlp/work/ng-training/limetools-adv-routing
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-07-06T01:18:28.465Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-06T01:18:28.466Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/7RZkeN5331by5-hcK-yfFPvRn2bPgOBFq8T8JHBeKpA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 06 2017 06:48:28 GMT+0530 (IST)
+[debug] [2017-07-06T01:18:28.710Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-06T01:18:28.759Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Thu Jul 06 2017 06:48:28 GMT+0530 (IST)
+[debug] [2017-07-06T01:18:30.316Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-06T01:19:26.396Z] TypeError: Cannot read property 'setRawMode' of null
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:19:26.398Z] Error: write EIO
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:19:26.698Z] TypeError: Cannot read property 'setRawMode' of null
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:19:26.699Z] Error: write EIO
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:22:34.314Z] ----------------------------------------------------------------------
+[debug] [2017-07-06T01:22:34.317Z] Command:      /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2017-07-06T01:22:34.317Z] CLI Version:  3.9.1
+[debug] [2017-07-06T01:22:34.317Z] Platform:     darwin
+[debug] [2017-07-06T01:22:34.317Z] Node Version: v8.1.0
+[debug] [2017-07-06T01:22:34.317Z] Time:         Thu Jul 06 2017 06:52:34 GMT+0530 (IST)
+[debug] [2017-07-06T01:22:34.317Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-06T01:22:34.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-07-06T01:22:34.327Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srivenkateshlp/work/ng-training/limetools-adv-routing
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-07-06T01:22:37.027Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Thu Jul 06 2017 06:52:37 GMT+0530 (IST)
+[debug] [2017-07-06T01:22:38.707Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-06T01:24:53.066Z] TypeError: Cannot read property 'setRawMode' of null
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:24:53.069Z] Error: write EIO
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:24:53.373Z] TypeError: Cannot read property 'setRawMode' of null
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-07-06T01:24:53.375Z] Error: write EIO
+[error] 
+[error] Error: An unexpected error has occurred.
